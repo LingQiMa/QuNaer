@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+    <ImageView
+        android:id="@+id/mine_list_imageView"
+        android:src="@mipmap/ic_purse_coup"
+        android:layout_margin="8dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+    <TextView
+        android:text="我的钱包"
+        android:id="@+id/mine_list_textView"
+        android:textColor="@color/colorBlack"
+        android:layout_toEndOf="@id/mine_list_imageView"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:textSize="@dimen/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/mine_iv_advance"
+        android:src="@mipmap/mine_advance"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

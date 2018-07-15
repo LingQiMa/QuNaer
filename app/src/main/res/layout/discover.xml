@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/dis_rl_title"
+        android:background="@color/colorGreen"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/dis_iv_back"
+            android:src="@mipmap/back"
+            android:layout_margin="8dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+        <TextView
+            android:id="@+id/dis_tv_order"
+            android:text="订单服务"
+            android:textSize="@dimen/two"
+            android:textColor="#fff"
+            android:background="@drawable/dis_title_green"
+            android:gravity="center"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="90dp"
+            android:layout_height="25dp"/>
+        <TextView
+            android:id="@+id/dis_tv_pro"
+            android:text="产品咨询"
+            android:background="@drawable/dis_title_white"
+            android:layout_toEndOf="@id/dis_tv_order"
+            android:textColor="@color/colorGreen"
+            android:textSize="@dimen/two"
+            android:layout_marginTop="8dp"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="25dp"/>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/dis_fl_frameLayout"
+        android:layout_below="@id/dis_rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</RelativeLayout>
